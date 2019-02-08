@@ -1,0 +1,120 @@
+body {
+	color: rdb(30, 30, 30);
+	background-color: rgb(200, 200, 200);
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Titillium Web', sans-serif;
+	letter-spacing: 2px;	
+}
+
+h1 {
+	color: orange;
+	font-size: 25px;
+}
+
+h2 {
+	color: rgb(20, 20, 20);
+	font-size: 21px
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+div {
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.img-circle {
+	border-radius: 800%;
+}
+
+.box-white {
+	background: white;
+	width: 800px;
+	margin: 15px auto;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box-black {
+	background: black;
+	width: 800px;
+	margin: 15px auto;
+	padding: 2px 42px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn-yellow {
+	background-color: orange;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+
+.btn-yellow:hover {
+opacity: 0.5;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0;
+}
+
+.list-inline > li {
+	display: inline-block;
+}
+
+.logo-alone {
+	padding: 80px;
+}
+
+#fb-logo {
+	color: #00315B;
+}
+
+#twt-logo {
+	color: #34B5FF;
+}
+
+#gh-logo {
+	color: #D21DC8;
+}
